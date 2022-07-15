@@ -1,5 +1,8 @@
 import React from "react";
 import { Card } from "./ExperienceElements";
+import SkillsIcon from "../../Assets/skills.png";
+import personalSkills from "../../Assets/personalSkills.png";
+import EducationIcon from "../../Assets/education.png";
 const Experience = () => {
   return (
     <Card>
@@ -7,7 +10,7 @@ const Experience = () => {
         <div class="card">
           <div class="face face1">
             <div class="content">
-              <img src="https://cdn-icons.flaticon.com/png/512/2703/premium/2703996.png?token=exp=1657763951~hmac=9c7de1bf51c6712539e8543821ebb452"></img>
+              <img className="skills" src={SkillsIcon}></img>
               <h3>Skills</h3>
             </div>
           </div>
@@ -15,13 +18,9 @@ const Experience = () => {
             <div class="content">
               <p>
                 <li>Game Development</li>
-                <br></br>
                 <li>Web Applications</li>
-                <br></br>
                 <li>Photoshop</li>
-                <br></br>
                 <li>MERN Stack</li>
-                <br></br>
               </p>
             </div>
           </div>
@@ -29,7 +28,7 @@ const Experience = () => {
         <div class="card">
           <div class="face face1">
             <div class="content">
-              <img src="https://cdn-icons-png.flaticon.com/512/4727/4727496.png"></img>
+              <img className="personal" src={personalSkills}></img>
               <h3>Interpersonal</h3>
             </div>
           </div>
@@ -37,11 +36,10 @@ const Experience = () => {
             <div class="content">
               <p>
                 <li>Self Learning</li>
-                <br></br>
                 <li>High Motivation</li>
-                <br></br>
                 <li>Love Challenges</li>
-                <br></br>
+                <li>Verbal Communication</li>
+                <li>Listening Skills.</li>
               </p>
             </div>
           </div>
@@ -49,7 +47,7 @@ const Experience = () => {
         <div class="card">
           <div class="face face1">
             <div class="content">
-              <img src="https://cdn-icons.flaticon.com/png/512/2936/premium/2936735.png?token=exp=1657764592~hmac=014b931bdafcaae8e100c3108c29b31b"></img>
+              <img className="education" src={EducationIcon}></img>
               <h3>Education</h3>
             </div>
           </div>

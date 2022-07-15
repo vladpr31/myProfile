@@ -13,7 +13,7 @@ const FooterSection = styled.div`
 
   span {
     position: absolute;
-    margin-left: -200px;
+    margin-left: -205px;
     bottom: 2rem;
     color: #fff;
 

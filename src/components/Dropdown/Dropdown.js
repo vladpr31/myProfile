@@ -8,7 +8,6 @@ const SiderBar = styled.div`
   position: fixed;
   height: 100%;
   width: 100%;
-  /* top: 0; */
   left: 0;
   z-index: 999;
   transition: 0.3s ease-in-out;
@@ -63,11 +62,7 @@ export const NavBtn = styled.div`
     border: 2.5px solid;
     box-shadow: 0 0 20px #f37335, 0 0 20px #fdc830, 0 0 20px #03e9f4,
       0 0 20px #f37335;
-    background: linear-gradient(
-      to top,
-      #fdc830,
-      #f37335
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, #fdc830, #f37335);
 
     background-size: 500% 200%;
     background-position: 25% 50%;
