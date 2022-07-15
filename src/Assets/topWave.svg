@@ -1,0 +1,8 @@
+<svg width="100%" height="100%" id="svg" viewBox="0 50 1600 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+.path-0{
+animation:pathAnim-0 20s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+}</style><defs><linearGradient id="gradient" x1="100%" y1="50%" x2="0%" y2="50%"><stop offset="5%" stop-color="#151418"></stop><stop offset="95%" stop-color="#44474d"></stop></linearGradient></defs><path d="M 0,400 C 0,400 0,200 0,200 C 75.60765550239233,214.4688995215311 151.21531100478467,228.9377990430622 241,221 C 330.78468899521533,213.0622009569378 434.7464114832536,182.7177033492823 537,192 C 639.2535885167464,201.2822966507177 739.799043062201,250.19138755980862 833,249 C 926.200956937799,247.80861244019138 1012.0574162679427,196.51674641148324 1112,180 C 1211.9425837320573,163.48325358851676 1325.9712918660287,181.74162679425837 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 190)"></path></svg>
