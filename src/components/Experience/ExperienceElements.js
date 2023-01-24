@@ -96,7 +96,7 @@ export const Card = styled.div`
       width: fit-content;
       position: relative;
       display: block;
-      margin-left: -25%;
+      
     }
     .container .card .face.face1 .content .skills {
       width: 75px;
