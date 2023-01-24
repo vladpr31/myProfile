@@ -1,10 +1,10 @@
 // --------------------------------------- Project List
-import mainmenu from "../Assets/educateMe.gif";
-import Yetzion from "../Assets/Yetzion.jpg";
-
+import EducateMe from "../Assets/educateMe.gif";
+import WeatherApp from "../Assets/accuWeather.png";
+import MeRing from "../Assets/meRing.gif";
 export const ProjectList = [
   {
-    img: mainmenu,
+    img: EducateMe,
     title: "Educate Me",
     description:
       "Educational game about road safety for kids with Autistic Disorder Spectrum. Platforms: Smartphone, Tables, PC",
@@ -12,11 +12,19 @@ export const ProjectList = [
     github_url: "https://github.com/vladpr31/educateMe",
   },
   {
-    img: Yetzion,
-    title: "Yetzion",
-    description: "Web App for Scheduling meetups with friends.",
-    tech_stack: "Html, Css, Javascript, React, Firebase, HebcalAPI.",
-    github_url: "https://github.com/vladpr31/Yetzion-WorkInProgress-",
+    img: WeatherApp,
+    title: "WeatherApp",
+    description:
+      "Web application for weather, using AccuWeather API. One of my first projects I've made. without using Backend for the data.",
+    tech_stack: "HTML,CSS,ReactJS,AccuWeather API",
+    github_url: "https://github.com/vladpr31/WeatherApp",
+  },
+  {
+    img: MeRing,
+    title: "MeRing",
+    description:
+      "Landing Page for an IoT Product I've cameup with on one of my courses.",
+    tech_stack: "HTML,CSS,ReactJS,Framer-Motion,tsParticles.",
   },
 ];
 

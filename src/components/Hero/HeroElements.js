@@ -81,9 +81,15 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 500px;
-  width: auto;
+  height: 400px;
+  width: 100%;
   border-radius: 50px;
+  margin-left: 40%;
+  @media screen and (max-width: 768px) {
+    margin: 10%;
+    height: 250px;
+    width: 100%;
+  }
 `;
 
 const ScrollAnimation = keyframes`

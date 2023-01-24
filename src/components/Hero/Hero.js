@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
-import profilePic from "../../Assets/hero.png";
+import profilePic from "../../Assets/hero2.png";
 import {
   HeroContainer,
   HeroWrapper,

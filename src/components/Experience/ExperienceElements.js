@@ -96,7 +96,7 @@ export const Card = styled.div`
       width: fit-content;
       position: relative;
       display: block;
-      margin-left: 50px;
+      margin-left: -25%;
     }
     .container .card .face.face1 .content .skills {
       width: 75px;
@@ -156,6 +156,16 @@ export const Card = styled.div`
     }
     .container .content p li {
       margin-left: -75px;
+    }
+    .container .card:hover .face.face2 {
+      transform: translateY(-100px);
+    }
+    .container .card:hover .face.face1 {
+      background: #25d366;
+      transform: translateY(-100px);
+    }
+    .container .card:hover .face.face1 .content {
+      opacity: 1;
     }
   }
 `;
