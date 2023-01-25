@@ -29,7 +29,7 @@ export const LoadingStyles = styled.div`
     font-size: 18px;
     font-weight: 600;
     padding-top: 50px;
-    margin-left: -75px;
+    margin-left: -100px;
     font-family: monospace;
     letter-spacing: 1em;
     color: #64dfdf;
@@ -91,7 +91,7 @@ export const LoadingStyles = styled.div`
   }
 
   .loading .d1 {
-    margin-left: -20px;
+    margin-left: -25px;
     width: 55px;
     height: 55px;
     position: absolute;
@@ -105,7 +105,7 @@ export const LoadingStyles = styled.div`
     height: 40px;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    margin-left: -11px;
+    margin-left: -15px;
     margin-top: 6px;
     animation: load2812 2s linear infinite;
   }

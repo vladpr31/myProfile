@@ -9,7 +9,7 @@ const FooterSection = styled.div`
   background-size: cover;
   width: 100%;
   height: 250px;
-  position: relative;
+  position: absolute;
 
   span {
     position: absolute;

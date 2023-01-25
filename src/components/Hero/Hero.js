@@ -40,7 +40,7 @@ function Hero() {
             </p>
           </HeroLeft>
           <HeroRight>
-            <Image src={profilePic} alt="man-svgrepo" />
+            <Image src={profilePic} alt="heroPicture" />
           </HeroRight>
         </HeroWrapper>
         <ScrollDown to="about">
