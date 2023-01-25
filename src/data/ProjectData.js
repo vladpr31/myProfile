@@ -25,6 +25,7 @@ export const ProjectList = [
     description:
       "Landing Page for an IoT Product I've cameup with on one of my courses.",
     tech_stack: "HTML,CSS,ReactJS,Framer-Motion,tsParticles.",
+    github_url: "https://github.com/vladpr31/MeRing",
   },
 ];
 
