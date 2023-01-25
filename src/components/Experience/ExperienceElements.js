@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  @media screen and (hover: hover) {
+  @media(hover: hover) {
     img {
       padding: 25px;
     }
@@ -43,7 +43,7 @@ export const Card = styled.div`
       padding: 1rem;
     }
 
-    @media screen and (max-width: 640px) {
+    @media (min-width: 640px) {
       .cards_item {
         width: 50%;
       }
@@ -54,7 +54,7 @@ export const Card = styled.div`
       }
     }
 
-    @media screen and (max-width: 768px) {
+    @media (min-width: 768px) {
       .cards_item {
         width: 33.3333%;
       }
