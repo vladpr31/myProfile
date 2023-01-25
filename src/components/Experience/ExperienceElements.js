@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  @media (hover: hover) {
+  @media screen and (hover: hover) {
     img {
       padding: 25px;
     }
