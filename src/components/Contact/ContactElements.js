@@ -5,9 +5,6 @@ export const ContactWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     margin: 5rem 0;
-    .SectionTitle {
-      margin-left: 90px;
-    }
   }
 `;
 
