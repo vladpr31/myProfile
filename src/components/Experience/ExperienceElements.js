@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  @media(hover: hover) {
+  @media (hover: hover) {
     img {
       padding: 25px;
     }
@@ -43,28 +43,6 @@ export const Card = styled.div`
       padding: 1rem;
     }
 
-    @media (min-width: 640px) {
-      .cards_item {
-        width: 50%;
-      }
-      .card_image {
-        height: 100%;
-        width: 100%;
-        padding: 0;
-      }
-    }
-
-    @media (min-width: 768px) {
-      .cards_item {
-        width: 33.3333%;
-      }
-      .card_image {
-        height: 100%;
-        width: 100%;
-        padding: 0;
-      }
-    }
-
     .card {
       background-color: white;
       border-radius: 0.25rem;
@@ -102,6 +80,27 @@ export const Card = styled.div`
       margin-bottom: 1.25rem;
       font-weight: 400;
       text-align: center;
+    }
+  }
+  @media (min-width: 640px) {
+    .cards_item {
+      width: 50%;
+    }
+    .card_image {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .cards_item {
+      width: 33.3333%;
+    }
+    .card_image {
+      height: 100%;
+      width: 100%;
+      padding: 0;
     }
   }
 `;
