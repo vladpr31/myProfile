@@ -7,7 +7,9 @@ import {
   TechImg,
   TechName,
   ContactWrapper,
+  MyProjectsLink,
 } from "./AboutElements";
+import { ScrollDown, ScrollLink } from "../Hero/HeroElements";
 import blondie from "../../Assets/Blonde_businessman-512.png";
 function About() {
   return (

@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  @media (hover: hover) {
+  @media {
     img {
       padding: 25px;
     }
     .card_image {
       align-self: center;
-      height: 50%;
       max-width: 50%;
       padding: 25px;
     }
@@ -48,35 +47,33 @@ export const Card = styled.div`
       border-radius: 0.25rem;
       box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
       display: flex;
-      height: fit-content;
+      height: 100%;
       flex-direction: column;
       overflow: hidden;
     }
 
     .card_content {
-      padding: 1rem;
-      background: radial-gradient(
-        circle,
-        rgba(13, 188, 244, 1) 0%,
-        rgba(101, 220, 242, 0.8772759103641457) 72%,
-        rgba(0, 212, 255, 1) 100%
-      );
+      padding: 15px;
+      background-color: #353a3b;
+      height: 100%;
     }
 
     .card_title {
       color: #ffffff;
-      font-size: 1.1rem;
+      font-size: 18px;
       font-weight: 700;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       text-transform: capitalize;
+      text-decoration: underline;
       margin: 5px;
+      margin-bottom: 10px;
       text-align: center;
     }
 
     .card_text {
       color: #ffffff;
-      font-size: 0.875rem;
-      line-height: 1.75;
+      font-size: 14.5px;
+      line-height: 1.1;
       margin-bottom: 1.25rem;
       font-weight: 400;
       text-align: center;

@@ -133,10 +133,10 @@ export const LoadingStyles = styled.div`
 const Loading = () => {
   return (
     <LoadingStyles>
-      <div class="loading">
-        <div class="d1"></div>
-        <div class="d2"></div>
-        <div class="spinner">
+      <div className="loading">
+        <div className="d1"></div>
+        <div className="d2"></div>
+        <div className="spinner">
           <span>L</span>
           <span>O</span>
           <span>A</span>

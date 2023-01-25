@@ -36,3 +36,8 @@ export const TechImg = styled.img`
 export const TechName = styled.div`
   font-size: 14px;
 `;
+
+export const MyProjectsLink = styled.div`
+  justify-content: center;
+  color: black;
+`;

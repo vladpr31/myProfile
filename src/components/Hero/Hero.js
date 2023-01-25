@@ -21,7 +21,7 @@ function Hero() {
     setIsOpen(!isOpen);
   };
 
-  const h5Text = ["I am a Software Engineer"];
+  const h5Text = ["A Software Engineer"];
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
@@ -29,8 +29,8 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>My Name Is</h1>
-            <h1>Vlad Propisnov</h1>
+            <h1>Hello There!</h1>
+            <h1>I'm Vlad Propisnov</h1>
             <h5>
               <TextScramble texts={h5Text} />
             </h5>
@@ -43,7 +43,7 @@ function Hero() {
             <Image src={profilePic} alt="man-svgrepo" />
           </HeroRight>
         </HeroWrapper>
-        <ScrollDown to="projects">
+        <ScrollDown to="about">
           <ScrollLink>
             Get To Know Me More
             <img src={Arrow} alt="scroll-down-Arrow" />

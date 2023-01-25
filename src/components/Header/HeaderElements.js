@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: transparent
+  background: transparent;
   height: 100px;
   display: flex;
   align-items: center;
@@ -13,14 +13,13 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(ScrollLink)`
-  color: rgb(119, 119, 121);
+  color: white;
   display: flex;
-  font-size: 1.2rem;
+  font-size: 18px;
   align-items: center;
   height: 100%;
   cursor: pointer;
   margin-right: 150px;
-
   &:hover {
     font-weight: 800;
     color: #03e9f4;

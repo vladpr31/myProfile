@@ -3,11 +3,12 @@ import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
   padding-bottom: 2rem;
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-right: 1rem;
   padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
 
@@ -88,7 +89,7 @@ export const Image = styled.img`
   @media screen and (max-width: 768px) {
     margin: 10%;
     height: 250px;
-    width: 100%;
+    width: 100 %;
   }
 `;
 

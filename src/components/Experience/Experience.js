@@ -6,54 +6,47 @@ import EducationIcon from "../../Assets/education.png";
 const Experience = () => {
   return (
     <Card>
-      <ul class="cards">
-        <li class="cards_item">
-          <div class="card">
-            <div class="card_image">
+      <ul className="cards">
+        <li className="cards_item">
+          <div className="card">
+            <div className="card_image">
               <img src={SkillsIcon} />
             </div>
-            <div class="card_content">
-              <h2 class="card_title">Skills & Knowledge</h2>
-              <p class="card_text">
-                <p>- Javascript</p>
-                <p>- ReactJS</p>
-                <p>- Python</p>
-                <p>- NodeJS</p>
-              </p>
+            <div className="card_content">
+              <h2 className="card_title">Skills & Knowledge</h2>
+              <p className="card_text">- Javascript/ReactJS</p>
+              <p className="card_text">- NodeJS</p>
+              <p className="card_text">- Java</p>
+              <p className="card_text">- Python</p>
             </div>
           </div>
         </li>
-        <li class="cards_item">
-          <div class="card">
-            <div class="card_image">
+        <li className="cards_item">
+          <div className="card">
+            <div className="card_image">
               <img src={personalSkills} />
             </div>
-            <div class="card_content">
-              <h2 class="card_title">Personal Skills</h2>
-              <p class="card_text">
-                <p>- Listening to feedbacks</p>
-                <p>- Quick & Eager Learner</p>
-                <p>- Good Communications</p>
-                <p>- Motivated and Passionate</p>
-              </p>
+            <div className="card_content">
+              <h2 className="card_title">Personal Skills</h2>
+              <p className="card_text">- Listening to feedbacks</p>
+              <p className="card_text">- Quick & Eager Learner</p>
+              <p className="card_text">- Good Communications</p>
+              <p className="card_text">- Motivated and Passionate</p>
             </div>
           </div>
         </li>
-        <li class="cards_item">
-          <div class="card">
-            <div class="card_image">
+        <li className="cards_item">
+          <div className="card">
+            <div className="card_image">
               <img src={EducationIcon} />
             </div>
-            <div class="card_content">
-              <h2 class="card_title">Education</h2>
-              <p class="card_text">
-                <p>- B.sc Software Engineer - Graduated from S.C.E College.</p>
-                <p>- Udemy Course: Fullstack Course by Angela Yu</p>
-                <p>
-                  - Udemy Course: Docker & Kubernetes by Maximilian
-                  Schwarzmüller
-                </p>
+            <div className="card_content">
+              <h2 className="card_title">Education</h2>
+              <p className="card_text">
+                - B.sc Software Engineer - Graduated from S.C.E College.
               </p>
+              <p className="card_text">- Udemy Course: Fullstack Course</p>
+              <p className="card_text">- Udemy Course: Docker & Kubernetes</p>
             </div>
           </div>
         </li>
