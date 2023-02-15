@@ -21,7 +21,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="cvBtn"
-            href="https://drive.google.com/uc?export=download&id=1mVp-L8Gx3vyOY3phIgxNYKq4aXYI_vIY"
+            href="https://drive.google.com/file/d/1e3vFfbEMuPSeztObJxABUc9VDing_KRb/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
